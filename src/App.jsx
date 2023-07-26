@@ -1,12 +1,16 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import LoginPage from "./components/LoginPage"
 
 
 function App() {
  
 
   return (
-    <>
-      TrackIt
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
