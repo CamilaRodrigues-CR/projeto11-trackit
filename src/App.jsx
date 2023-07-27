@@ -1,16 +1,20 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import LoginPage from "./components/LoginPage"
+import LoginPage from "./pages/LoginPage/LoginPage"
+import HabitsPage from "./pages/HabitsPage/HabitsPage"
+
 
 
 function App() {
  
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<LoginPage />} />
-      </Routes>
-    </BrowserRouter>
+  
+    <HabitsPage/>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<LoginPage />} />
+    //   </Routes>
+    // </BrowserRouter>
   )
 }
 
