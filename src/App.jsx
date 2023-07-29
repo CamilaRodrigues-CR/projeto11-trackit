@@ -8,7 +8,7 @@ function App() {
  
 
   return (
-    <HabitsPage />
+    <LoginPage />
     
     // <BrowserRouter>
     //   <Routes>
@@ -24,3 +24,7 @@ function App() {
 }
 
 export default App
+
+
+
+
